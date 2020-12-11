@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Dashboard</title>
+  <meta name="description" content="Dashboard">
+  <meta name="author" content="AndriiKoval, Pavlo Mospan, Yulia Khlyaka">
+  <!-- Bokeh includes-->
+  <link rel="stylesheet" href="http://cdn.pydata.org/bokeh/release/bokeh-1.3.4.min.css" type="text/css" />
+  <script type="text/javascript" src="http://cdn.pydata.org/bokeh/release/bokeh-1.3.4.min.js"></script>
+  <link href="http://cdn.bokeh.org/bokeh/release/bokeh-widgets-1.3.4.min.css" rel="stylesheet" type="text/css">
+  <script src="http://cdn.bokeh.org/bokeh/release/bokeh-widgets-1.3.4.min.js"></script>
+  {{ script | safe }}
+  {{ script1 | safe }}
+</head>
+
+<body>
+  <div>
+    <h1>I LOVE BITCOINS!!!!!!!!</h1>
+    <div class='bokeh'>
+      {{ div1 | safe }}
+    </div>
+    <div class='bokeh'>
+      {{ div | safe }}
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+pystan
+fbprophet
+pandas
+numpy
+flask
+statsmodels
+flask_bootstrap
+bokeh==1.3.4
+tqdm
+sklearn
