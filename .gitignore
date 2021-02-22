@@ -19,7 +19,6 @@ __pycache__/
 
 # images
 images/
-*.png
 
 # Distribution / packaging
 .Python
@@ -185,6 +184,11 @@ Temporary Items
 !.vscode/tasks.json
 !.vscode/launch.json
 *.code-workspace
+
+### Idea ###
+.idea/*
+.!idea/workspace.xml
+
 
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
