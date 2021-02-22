@@ -6,25 +6,17 @@
 
 Having such milestones/phases as:
 
-- [ ] Feature Engineering
-- [ ] LSTM
-- [ ] ARIMA
-- [ ] Prophet
-- [ ] UI
-- [ ] Server
-- [ ] Documentation
-- [ ] Code validation
+- [X] Feature Engineering
+- [X] LSTM
+- [X] ARIMA
+- [X] Prophet
+- [X] UI
+- [X] Server
+- [X] Documentation
+- [X] Code validation
 
-The commit rules are:
+## Flask API
 
-- Milestone name: the work done - what to do next
-    - EXAMPLE: ARIMA: preprocessed inputs - change model outputs
-- README.md : update
-
-When projects phase is over it's checked like that: 
-- [x] Feature Engineering
-
-----
-### Flask api
-
-start server using `bash start_server.sh`
+0. cd ws2020-group-2/
+1. install all dependencies `pip install -r requirements.txt`
+2. start server using `bash start_server.sh` or `./bash start_server.sh`

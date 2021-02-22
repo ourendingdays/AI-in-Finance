@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow|Tomorrow:400,700&display=swap");
+
+body, html{
+    height: 100%;
+    font-family: Tomorrow, sans-serif !important;
+}
+
+.m-top {
+    margin-top: 50px !important;
+}
+
+.m-bot {
+    margin-bottom: 50px !important;
+}
+
+.index-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard-container {
+    justify-content: center;
+    margin-top: 4% !important;
+}
+
+:root{
+    --light-purple: #8386f5;
+    --purple: #3d43b4;
+    --dark-purple: #041348;
+    --dark-green: #083e12;
+    --green: #1aef49;
+}
+
+.btn-b {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    background-color: var(--green) !important;
+    color: var(--dark-purple) !important;
+    outline: none;
+    cursor: pointer;
+    padding: 20px 25px !important;
+    position: relative;
+    font-family: Tomorrow, sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-radius: 0 !important;
+  }
+
+.btn-b:hover {
+    background-color: var(--dark-purple) !important;
+    color: var(--green) !important;
+}
+
+.buttons {
+    display: flex !important;
+    flex-direction: row !important;
+        flex-wrap: wrap !important;
+    justify-content: center !important;
+    text-align: center !important;
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 auto !important;
+/*   padding: 2em 0em; */
+}
+
+.container-btn {
+    align-items: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    text-align: center !important;
+    background-color: var(--green) !important;
+    padding:  40px 0px !important;
+    width: 300px !important;
+}
+
+.btn-custom {
+    letter-spacing: 0.1em !important;
+    cursor: pointer !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    line-height: 45px !important;
+    max-width: 200px !important;
+    position: relative !important;
+    text-decoration: none !important;
+    text-transform: uppercase !important;
+    width: 100% !important;
+    font-family: Tomorrow, sans-serif;
+}
+.btn-custom:hover {
+    text-decoration: none !important;
+}
+
+/*btn_background*/
+.effect01 {
+    color: #FFF !important;
+    border: 4px solid #000 !important;
+    box-shadow:0px 0px 0px 1px #000 inset !important;
+    background-color: #000 !important;
+    overflow: hidden !important;
+    position: relative !important;
+    transition: all 0.3s ease-in-out !important;
+}
+.effect01:hover {
+    border: 4px solid #666 !important;
+    background-color: #FFF !important;
+    box-shadow:0px 0px 0px 4px #EEE inset !important;
+}
+
+/*btn_text*/
+.effect01 span {
+    transition: all 0.2s ease-out !important;
+    z-index: 2 !important;
+}
+.effect01:hover span{
+    letter-spacing: 0.13em !important;
+    color: #333 !important;
+}
+
+/*highlight*/
+.effect01:after {
+    background: #FFF !important;
+    border: 0px solid #000 !important;
+    content: "" !important;
+    height: 155px !important;
+    left: -75px !important;
+    opacity: .8 !important;
+    position: absolute !important;
+    top: -50px !important;
+    -webkit-transform: rotate(35deg) !important;
+            transform: rotate(35deg) !important;
+    width: 50px !important;
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1) !important;/*easeOutCirc*/
+    z-index: 1 !important;
+}
+.effect01:hover:after {
+    background: #FFF !important;
+    border: 20px solid #000 !important;
+    opacity: 0 !important;
+    left: 120% !important;
+    -webkit-transform: rotate(40deg) !important;
+            transform: rotate(40deg) !important;
+}
+
+
+/* bokeh styles */
+.bk-root .bk-btn-success {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    border-radius: 4px !important;
+    background-color: var(--green) !important;
+    color: var(--dark-purple) !important;
+    outline: none;
+    cursor: pointer;
+    padding: 20px 25px !important;
+    position: relative;
+    font-family: Tomorrow, sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.bk-root .bk-btn-success:focus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    background-color: var(--green) !important;
+    color: var(--dark-purple) !important;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 15px !important;
+    position: relative;
+    font-family: Tomorrow, sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.bk-root .bk-btn-success:active {
+    background-color: var(--dark-purple) !important;
+    color: var(--green) !important;
+}
+.bk-root .bk-btn-success:hover {
+    background-color: var(--dark-purple) !important;
+    color: var(--green) !important;
+    box-shadow: 0px 0px 12px -2px;
+}
