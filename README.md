@@ -2,9 +2,7 @@
 
 ## Project: AI in Finance
 
-## Commit rules:
-
-Having such milestones/phases as:
+Undergone milestones :
 
 - [X] Feature Engineering
 - [X] LSTM
